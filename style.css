@@ -9,6 +9,7 @@ body {
 
     
 }
+
 video {
     object-fit: cover;
     width: 100vw;
@@ -19,6 +20,9 @@ video {
     z-index: -1000;
   }
 
+
+
+  
 .wrapper {
     margin:100px;
     box-sizing: border-box;
