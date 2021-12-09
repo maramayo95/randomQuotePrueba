@@ -1,0 +1,139 @@
+body {
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    
+   
+
+
+    
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+  }
+
+.wrapper {
+    margin:100px;
+    box-sizing: border-box;
+    
+    padding:30px;
+    max-width:650px;
+    width:auto;
+    border-radius: 15px;
+
+    background-image: linear-gradient(315deg, #abe9cdbb 0%, #3eadcfb6 74%);
+    color: #fafafa;
+
+}
+
+
+.wrapper .header {
+    font-size : 35px;
+}
+
+.quote-area {
+    font-size: 15px;
+}
+
+.quote-area i:first-child {
+    
+    margin: 0 0 3px 10px ;
+}
+
+
+.quote-area i:last-child {
+    display:flex;
+    align-items: flex-end;
+    margin: 3px 3px 0 0 ;
+}
+
+.content .quote-area {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-area .quote {
+    font-size: 22px;
+    text-align:center;
+    word-break: break-all;
+}
+
+.content .author {
+    display: flex;
+    margin-top: 20px;
+    font-size: 25x;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    justify-content: flex-end;
+}
+
+.author span:first-child {
+  margin : -7px 5px 0 0 ;
+  font-family: monospace;
+  
+
+}
+
+
+.wrapper .buttons {
+    border-top: 1px solid #ccc;
+    
+}
+    
+button {
+    background-color: #5372f09a;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #fafafa;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background: #5372f0;
+}
+
+button.loading {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.buttons .features {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.features ul {
+    display:flex;
+
+}
+
+.features ul li {
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #5372f09a;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+
+}
+.features ul li:hover {
+    color: #fff;
+    background: #5372f0;
+}
